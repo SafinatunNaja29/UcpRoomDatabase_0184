@@ -10,7 +10,7 @@ import com.example.ucp2.repository.RepositoryMataKuliah
 interface InterfaceContainerApp {
     val repositoryDosen: RepositoryDosen
 
-    val repositoryMK: RepositoryMataKuliah
+    val repositoryMataKuliah: RepositoryMataKuliah
 }
 
 class ContainerApp(private val context: Context) : InterfaceContainerApp {
@@ -18,7 +18,7 @@ class ContainerApp(private val context: Context) : InterfaceContainerApp {
         LocalRepositoryDosen(DatabaseApp.getDatabase(context).dosenDao())
     }
 
-    override val repositoryMK: RepositoryMataKuliah by lazy {
+    override val repositoryMataKuliah: RepositoryMataKuliah by lazy {
         LocalRepositoryMataKuliah(DatabaseApp.getDatabase(context).matakuliahDao())
     }
 
