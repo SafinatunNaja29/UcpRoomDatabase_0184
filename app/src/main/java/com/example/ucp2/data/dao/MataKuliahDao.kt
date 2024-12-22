@@ -13,10 +13,10 @@ interface MataKuliahDao {
     @Insert
     suspend fun insertMataKuliah(mataKuliah: MataKuliah)
 
-    @Query("SELECT * FROM mata_kuliah ORDER BY nama ASC")
+    @Query("SELECT * FROM matakuliah ORDER BY nama ASC")
     fun getAllMataKuliah(): Flow<List<MataKuliah>>
 
-    @Query("SELECT * FROM mata_kuliah WHERE kode = :kode")
+    @Query("SELECT * FROM matakuliah WHERE kode = :kode")
     fun getMataKuliah(kode: String): MataKuliah
 
     @Update
