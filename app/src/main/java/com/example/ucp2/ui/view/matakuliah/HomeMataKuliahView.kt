@@ -120,7 +120,7 @@ fun BodyHomeMataKuliahView(
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = "Tidak ada data Mata Kuliah.",
+                    text = "Data Matakuliah belum ditambahkan.",
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.padding(16.dp)
