@@ -20,7 +20,7 @@ class HomeMataKuliahViewModel(
         .filterNotNull()
         .map {
             HomeMataKuliahUiState(
-                listMk = it.toList(),
+                listMataKuliah = it.toList(),
                 isLoading = false
             )
         }
@@ -48,7 +48,7 @@ class HomeMataKuliahViewModel(
 }
 
 data class HomeMataKuliahUiState(
-    val listMk: List<MataKuliah> = listOf(),
+    val listMataKuliah: List<MataKuliah> = listOf(),
     val isLoading: Boolean = false,
     val isError: Boolean = false,
     val errorMessage: String = ""
