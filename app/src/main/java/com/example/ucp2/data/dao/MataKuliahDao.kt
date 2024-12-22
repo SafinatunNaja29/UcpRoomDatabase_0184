@@ -17,7 +17,7 @@ interface MataKuliahDao {
     fun getAllMataKuliah(): Flow<List<MataKuliah>>
 
     @Query("SELECT * FROM matakuliah WHERE kode = :kode")
-    fun getMataKuliah(kode: String): MataKuliah
+    fun getMataKuliah(kode: String): Flow<MataKuliah>
 
     @Update
     suspend fun updateMataKuliah(mataKuliah: MataKuliah)
