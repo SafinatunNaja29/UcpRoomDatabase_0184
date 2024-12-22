@@ -26,7 +26,7 @@ class HomeDosenViewModel (
         }
         .onStart {
             emit(HomeUiState(isLoading = true))
-            delay(900)
+            delay(2000)
         }
         .catch {
             emit(
