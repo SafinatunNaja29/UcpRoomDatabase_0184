@@ -14,4 +14,8 @@ class LocalRepositoryDosen (
     override fun getAllDosen(): Flow<List<Dosen>> {
         return dosenDao.getAllDosen()
     }
+
+    override fun getDosen(nidn: String): Flow<Dosen> {
+        return dosenDao.getDosen(nidn)
+    }
 }
