@@ -5,7 +5,7 @@ import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.ucp2.ui.KrsApp
+import com.example.ucp2.KrsApp
 
 object PenyediaViewModel {
 
