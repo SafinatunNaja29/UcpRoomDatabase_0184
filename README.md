@@ -1,3 +1,5 @@
+link video : https://umyac-my.sharepoint.com/:v:/g/personal/safinatun_naja_ft22_mail_umy_ac_id/EZVagEKi6ydKhFeyKrwyjoEBC4RvHiWxIafgVJv3GhWxlQ?e=BuVXe9
+
 Tampilan awal
 <img width="960" alt="Screenshot 2024-12-23 140005" src="https://github.com/user-attachments/assets/87b0fc7f-c3ec-4e10-988e-e783168209bf" />
 
