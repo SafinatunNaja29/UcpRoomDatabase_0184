@@ -63,7 +63,7 @@ fun DetailMataKuliahView(
                     onEditClick(viewModel.detailUiState.value.detailUiEvent.kode)
                 },
                 shape = MaterialTheme.shapes.medium,
-                containerColor = Color(0xFF843181),
+                containerColor = Color(0xFF006400),
                 contentColor = Color.White,
                 modifier = Modifier.padding(16.dp)
             ) {
@@ -125,7 +125,7 @@ fun BodyDetailMataKuliah(
                         .fillMaxWidth()
                         .padding(horizontal = 16.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = Color(0xFF843181),
+                        containerColor = Color(0xFF006400),
                         contentColor = Color.White //
                     )
                 ) {

@@ -123,7 +123,7 @@ fun InsertBodyMataKuliah(
         modifier = modifier
             .fillMaxWidth()
             .padding(16.dp)
-            .verticalScroll(rememberScrollState()), // Scrollable
+            .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(16.dp),
         horizontalAlignment = Alignment.Start
     ) {
@@ -141,7 +141,7 @@ fun InsertBodyMataKuliah(
                 .fillMaxWidth()
                 .padding(vertical = 8.dp),
             colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF843181),
+                containerColor = Color(0xFF006400),
                 contentColor = Color.White
             )
         ) {

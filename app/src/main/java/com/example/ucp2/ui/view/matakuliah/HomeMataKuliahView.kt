@@ -64,7 +64,7 @@ fun HomeMataKuliahView(
                 onClick = onAddMataKuliah,
                 shape = MaterialTheme.shapes.medium,
                 modifier = modifier.padding(16.dp),
-                containerColor = Color(0xFF843181)
+                containerColor = Color(0xFF006400)
             ) {
                 Icon(
                     imageVector = Icons.Default.Add,

@@ -37,14 +37,14 @@ fun TopAppBar(
                     Icon(
                         imageVector = Icons.Default.ArrowBack,
                         contentDescription = "Kembali",
-                        tint = Color(0xFF843181) // Crimson icon
+                        tint = Color(0xFF006400)
                     )
                 }
             }
         },
         colors = TopAppBarDefaults.smallTopAppBarColors(
             containerColor = Color(0xFFF9F9F9),
-            navigationIconContentColor = Color(0xFF843181),
+            navigationIconContentColor = Color(0xFF006400),
             titleContentColor = Color(0xFF030303)
         ),
         modifier = modifier

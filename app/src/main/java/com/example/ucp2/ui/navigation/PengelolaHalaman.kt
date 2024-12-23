@@ -120,7 +120,7 @@ fun PengelolaHalaman(
                         navController.popBackStack()
                     },
                     onEditClick = {
-                        navController.navigate("${AlamatNavigasi.DestinasiDetailMataKuliah.route}/$it")
+                        navController.navigate("${AlamatNavigasi.DestinasiUpdateMataKuliah.route}/$it")
                     },
                     modifier = modifier,
                     onDeleteClick = {

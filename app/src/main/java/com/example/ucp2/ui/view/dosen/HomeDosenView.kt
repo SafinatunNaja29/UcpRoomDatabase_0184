@@ -68,7 +68,7 @@ fun HomeDosenView(
                 onClick = onAddDosen,
                 shape = MaterialTheme.shapes.medium,
                 modifier = modifier.padding(16.dp),
-                containerColor = Color(0xFF843181)
+                containerColor = Color(0xFF006400)
             ) {
                 Icon(
                     imageVector = Icons.Default.Add,
@@ -193,7 +193,7 @@ fun CardDosen(
                 Icon(
                     imageVector = Icons.Filled.Person,
                     contentDescription = "Nama",
-                    tint = Color(0xFF843181)
+                    tint = Color(0xFF006400)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
@@ -210,7 +210,7 @@ fun CardDosen(
                 Icon(
                     imageVector = Icons.Filled.Info,
                     contentDescription = "NIDN",
-                    tint = Color(0xFF843181)
+                    tint = Color(0xFF006400)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
@@ -227,7 +227,7 @@ fun CardDosen(
                 Icon(
                     imageVector = Icons.Filled.Face,
                     contentDescription = "Jenis Kelamin",
-                    tint = Color(0xFF843181)
+                    tint = Color(0xFF006400)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(

@@ -73,7 +73,7 @@ fun UpdateMataKuliahView(
                 .padding(16.dp)
         ) {
 
-            // Isi Body
+
             InsertBodyMataKuliah(
                 uiState = uiState,
                 onValueChange = { updatedEvent ->

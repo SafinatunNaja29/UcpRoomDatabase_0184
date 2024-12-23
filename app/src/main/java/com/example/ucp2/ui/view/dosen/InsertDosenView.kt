@@ -120,7 +120,7 @@ fun InsertBodyDosen(
                 .fillMaxWidth()
                 .padding(vertical = 8.dp),
             colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF843181), //
+                containerColor = Color(0xFF006400), //
                 contentColor = Color.White
             )
         ) {

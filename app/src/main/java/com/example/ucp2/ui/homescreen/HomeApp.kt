@@ -34,7 +34,7 @@ fun HomeApp(
         modifier = Modifier
             .fillMaxSize()
             .background(
-                color = Color(0xFFbbbbbb)
+                color = Color(0xFF769876)
             ),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
@@ -54,16 +54,16 @@ fun HomeApp(
         Text(
             text = "UNIVERSITAS MUHAMMADIYAH YOGYAKARTA",
             color = Color.White,
-            fontSize = 26.sp,
+            fontSize = 25.sp,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center,
             modifier = Modifier.padding(bottom = 16.dp)
         )
-        Spacer(modifier = Modifier.height(14.dp))
+        Spacer(modifier = Modifier.height(10.dp))
         Text(
             text = "Selamat Datang",
             color = Color.White,
-            fontSize = 24.sp,
+            fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center,
             modifier = Modifier.padding(bottom = 16.dp)
@@ -82,7 +82,7 @@ fun HomeApp(
             Text(
                 text = "Dosen",
                 fontSize = 18.sp,
-                color = Color.Black,
+                color = Color(0xFF006400),
                 fontWeight = FontWeight.Bold
             )
         }
@@ -103,7 +103,7 @@ fun HomeApp(
             Text(
                 text = "Matakuliah",
                 fontSize = 18.sp,
-                color = Color.Black,
+                color = Color(0xFF006400),
                 fontWeight = FontWeight.Bold
             )
         }
